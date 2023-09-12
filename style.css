@@ -19,5 +19,14 @@ body{
     color: white;
     text-align: center;
     font-size: 20px;
-    font-family: Arial;
+    font-family: monospace;
+}
+
+img{
+    margin: 0;
+    width: 15%;
+    height: 15%;
+    position: relative; 
+    left: 40px; 
+    top: -100px;
 }
