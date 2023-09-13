@@ -21,19 +21,18 @@ body{
 }
 
 .flex-img{
-    margin-right: auto;
     width: 100px;
     height: 50px; 
 }
 
 .flex-img img{
-    width: 100px;
-    height: 50px; 
+    width: auto;
+    height: 100%; 
+    margin-left: -800px; 
 }
 
 .features{
     display: flex;
-    flex-direction: column;
 	justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -42,8 +41,8 @@ body{
 
 .featured-photo{
     position: relative; 
-    width: 280px; 
-    height: 280px; 
+    width: 240px; 
+    height: 240px; 
     overflow: hidden; 
     border-radius: 50%;
 }
@@ -53,26 +52,27 @@ body{
     height: 100%; 
 }
 
-
-.first{
+.description{
     font-family: monospace;
     color: white;
-    margin-bottom: 10px;
-}
-
-.second{
-    font-family: monospace;
-    color: white;
-    margin-top: -45px;
-}
-
-.third{
-    font-family: monospace;
-    color: white;
-    margin-top: -20px;
+    flex-basis: 400px;
     text-align: justify;
 }
 
+.description h1{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.description h3{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.description h4{
+    margin-top: 1px;
+    margin-left: 20px;
+}
 
 .previous-projects{
     display: flex;
@@ -87,11 +87,15 @@ body{
 
 .projects{
     display: flex;
-    justify-content: space-around;
+    width: 100;
+    justify-content: flex-end;
+	align-content: end;
+    flex-wrap: wrap;
 }
 
-.project-items{
-	width: 100;
+.project-items img{
+	width: 100px;
+    height: 100px;
 }
 
 .skills-bio{
@@ -119,17 +123,21 @@ body{
 }
 
 .skills-item{
-    font-family: monospace;
+    font-family: helvetica;
     color: white;
     text-align: center;
     flex-basis: 772px;
+    margin-top: -30px;
 }
 
 .bio-item{
-    font-family: monospace;
+    font-family: helvetica;
     color: white;
     text-align: center;
     flex-basis: 772px;
+    text-align: justify;
+    margin-top: -30px;
+    margin-right: 10px;
 }
 
 .footer{
@@ -139,13 +147,18 @@ body{
 }
 
 .footer-logo{
-    font-family: monospace;
-    color: white;
     flex-basis: 600px;
 }
 
+.footer-logo img{
+    width: 200px;
+    height: 200px;
+    margin-left: 500px; 
+} 
+
 .footer-content{
-    font-family: monospace;
+    font-family: arial;
     color: white;
     flex-basis: 772px;
+    margin-top: 30px;
 }
