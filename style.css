@@ -29,7 +29,6 @@ body{
 .flex-img img{
     width: 100px;
     height: 50px; 
-     
 }
 
 .features{
@@ -77,22 +76,76 @@ body{
 
 .previous-projects{
     display: flex;
-    justify-content: flex-end;
-	align-items: end;
-	flex-wrap: stretch;
+    justify-content: center;
+	align-items: center;
 }
 
 .previous-projects h2{
     font-family: monospace;
-    position: absolute;
-    bottom: 15%;
-    left: 40%;
+    color: white;
 }
 
 .projects{
-    width: 100;
-	flex: auto;
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb#000;    
-} 
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-items{
+	width: 100;
+}
+
+.skills-bio{
+    display: flex;
+	flex-wrap: stretch;
+}
+
+.skills{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    flex-basis: 772px;
+}
+
+.bio{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    flex-basis: 772px;
+}
+
+.skills-bio-container{
+    display: flex;
+	flex-wrap: stretch;
+}
+
+.skills-item{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    flex-basis: 772px;
+}
+
+.bio-item{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    flex-basis: 772px;
+}
+
+.footer{
+    display: flex;
+	flex-wrap: stretch;
+    background-color: black;
+}
+
+.footer-logo{
+    font-family: monospace;
+    color: white;
+    flex-basis: 600px;
+}
+
+.footer-content{
+    font-family: monospace;
+    color: white;
+    flex-basis: 772px;
+}
