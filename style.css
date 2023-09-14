@@ -1,0 +1,184 @@
+/* Fernandez, Jhin Lois V.
+EF-2L  
+Exercise 2: HTML and CSS */
+
+body{       /*sets the background color of the website*/
+    background-color: lightgray;
+    margin: 0;
+}
+
+.flex-container{                /*styles the header and its content*/
+	display: flex;
+	justify-content: flex-end;
+	align-content: end;
+	flex-wrap: wrap;
+    background: black;
+}
+
+.flex-item{                                 
+    width: 100;
+	flex-basis: 110px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+.flex-img{          
+    width: 100px;
+    height: 100px;                      
+}                                       /*adjusts the size and */
+                                        /*position of */
+.flex-img img{                          /*the logo */
+    width: auto;                
+    height: 100%; 
+    margin-left: -700px; 
+}
+
+.features{
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+	flex-wrap: wrap;
+}
+
+.featured-photo{                    /*makes the featured photo's shape into circle */
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    overflow: hidden; 
+    border-radius: 50%;
+}
+
+.featured-photo img{
+    width: auto; 
+    height: 100%; 
+}
+
+.description{                       /*styles and adjusts the text beside the featured photo*/
+    font-family: monospace;
+    color: black;
+    flex-basis: 320px;
+    text-align: justify;
+}
+
+.description h1{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.description h3{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.description p{
+    margin-top: 1px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.previous-projects{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.previous-projects h1{
+    font-family: monospace;
+    color: black;
+    margin-top: 90px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;           
+    flex-wrap: stretch;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+    margin-top: 15px;
+}
+
+.project-items img{                 /*adjusts the size of the project's photos */
+	width: 250px;                       
+    height: 250px;
+}
+
+.project-items p{
+    font-family: monospace;       /*styles and adjusts the text under the photos */
+    color: black;
+    font-size: 15px;
+    flex-basis: 20px;
+    text-align: center;
+}
+
+.skills-bio{
+    display: flex;
+	flex-wrap: stretch;
+    margin-top: 90px;
+}
+
+.skills{
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    flex-basis: 772px;
+}
+
+.bio{
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    flex-basis: 772px;
+}
+
+.skills-bio-container{        
+    display: flex;
+	flex-wrap: stretch;
+}
+
+.skills-item{
+    font-family: monospace;
+    color: black;
+    text-align: center;                /*styles and adjusts the content inside the skills and autobiography part */
+    flex-basis: 772px;
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.bio-item{
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    flex-basis: 772px;
+    text-align: justify;
+    margin-top: -15px;
+    margin-right: 20px;
+}
+
+.footer{
+    display: flex;
+	flex-wrap: stretch;
+    background-color: black;                    /*styles and adjusts the footer's logo and content */
+}
+
+.footer-logo{
+    flex-basis: 600px;
+}
+
+.footer-logo img{
+    width: 200px;
+    height: 200px;
+    margin-left: 500px; 
+} 
+
+.footer-content{
+    font-family: arial;
+    color: white;
+    flex-basis: 772px;
+    margin-top: 30px;
+}
